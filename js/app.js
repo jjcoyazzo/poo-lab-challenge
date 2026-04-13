@@ -7,7 +7,7 @@ function mezclar(array){
 
 // ⚙️ CONFIGURACIÓN (AQUÍ CONTROLAS TODO)
 const CONFIG = {
-    cantidad:3  // 👈 SOLO ESTO CAMBIAS
+    cantidad: 60  // 👈 SOLO ESTO CAMBIAS
 };
 
 // 🎯 Selección de preguntas
