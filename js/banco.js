@@ -1,193 +1,113 @@
 window.banco = [
 
 /* =========================
-   HERENCIA Y DISEÑO LÓGICO
+   POLIMORFISMO Y COMPORTAMIENTO DINÁMICO
 ========================= */
 
 /* 1–20 FUNDAMENTOS */
 
 {
-pregunta: "¿Cuál es el propósito principal de la herencia en POO?",
+pregunta: "¿Qué permite el polimorfismo en POO?",
 opciones: [
 "Eliminar clases",
-"Reutilizar y extender comportamiento",
+"Usar un mismo método con distintos comportamientos",
 "Reducir memoria obligatoriamente",
-"Evitar métodos"
+"Evitar herencia"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué relación representa la herencia?",
+pregunta: "¿Qué significa polimorfismo?",
 opciones: [
-"tiene-un",
-"usa-un",
-"es-un",
-"depende-de"
-],
-correcta: 2
-},
-{
-pregunta: "¿Qué característica define a una clase base?",
-opciones: [
-"Es la más compleja",
-"Contiene atributos únicos",
-"Define comportamiento común",
-"No puede tener métodos"
-],
-correcta: 2
-},
-{
-pregunta: "¿Qué error ocurre si la clase base tiene atributos innecesarios?",
-opciones: [
-"Ninguno",
-"Afecta a todas las derivadas",
-"Solo afecta memoria",
-"No compila"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué tipo de atributos deben ir en la clase base?",
-opciones: [
-"Específicos",
-"Globales",
-"Compartidos",
-"Temporales"
-],
-correcta: 2
-},
-{
-pregunta: "¿Qué define a una clase derivada?",
-opciones: [
-"No hereda",
-"Extiende comportamiento",
-"No tiene atributos",
-"Es independiente"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué ocurre si no se usa herencia cuando debería?",
-opciones: [
-"Mejora diseño",
-"Se duplica código",
-"No afecta",
-"Se elimina memoria"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué problema genera duplicar atributos?",
-opciones: [
-"Ninguno",
-"Inconsistencia",
-"Mayor velocidad",
-"Menor uso de memoria"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué indica una mala jerarquía de clases?",
-opciones: [
-"Clases pequeñas",
-"Relaciones incorrectas",
-"Uso de métodos",
-"Uso de objetos"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué se busca con una buena abstracción?",
-opciones: [
-"Más código",
-"Menos clases",
-"Modelo claro",
-"Más memoria"
-],
-correcta: 2
-},
-{
-pregunta: "¿Qué caracteriza una buena clase base?",
-opciones: [
+"Un solo método",
+"Muchas formas",
 "Muchos atributos",
-"Alta reutilización",
-"Muchos métodos privados",
-"Ningún método"
+"Una clase"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué ocurre si una clase derivada no agrega valor?",
+pregunta: "¿Qué palabra clave activa el polimorfismo en C++?",
 opciones: [
-"Mejora sistema",
-"Es innecesaria",
-"Aumenta rendimiento",
-"No importa"
+"public",
+"virtual",
+"static",
+"friend"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué indica una clase bien diseñada?",
+pregunta: "¿Qué tipo de función permite comportamiento dinámico?",
 opciones: [
-"Muchas funciones",
-"Responsabilidad clara",
-"Muchos atributos",
-"Ningún método"
+"Normal",
+"Privada",
+"Virtual",
+"Estática"
 ],
-correcta: 1
+correcta: 2
 },
 {
-pregunta: "¿Qué se evita con herencia?",
+pregunta: "¿Qué método se usa en la práctica para demostrar polimorfismo?",
 opciones: [
-"Uso de variables",
-"Duplicación de lógica",
-"Uso de clases",
-"Uso de memoria"
+"mostrarInfo",
+"main",
+"atacar",
+"setNombre"
 ],
-correcta: 1
+correcta: 2
 },
 {
-pregunta: "¿Qué pasa si la clase base cambia?",
+pregunta: "¿Qué ocurre si no se usa virtual?",
 opciones: [
-"No afecta",
-"Afecta derivadas",
-"Solo afecta main",
-"Se ignora"
+"Polimorfismo correcto",
+"Se ejecuta método de clase base",
+"Error de compilación",
+"No afecta"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué tipo de relación NO es herencia?",
+pregunta: "¿Qué tipo de enlace usa el polimorfismo?",
 opciones: [
-"es-un",
-"tiene-un",
-"extiende",
-"deriva"
+"Estático",
+"Dinámico",
+"Manual",
+"Compilado"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué representa la jerarquía de clases?",
+pregunta: "¿Qué se necesita para polimorfismo?",
 opciones: [
-"Orden de ejecución",
-"Relación estructural",
-"Uso de memoria",
-"Orden de compilación"
+"Solo clases",
+"Herencia",
+"Variables globales",
+"Archivos"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué pasa si se rompe la jerarquía?",
+pregunta: "¿Qué se comparte entre clases en polimorfismo?",
 opciones: [
-"No afecta",
-"Confusión lógica",
-"Mejora rendimiento",
-"Reduce código"
+"Nombre método",
+"Dirección memoria",
+"Constructor",
+"Archivo"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué cambia entre clases derivadas?",
+opciones: [
+"Nombre método",
+"Comportamiento",
+"Tipo variable",
+"Compilador"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué define el comportamiento de una clase?",
+pregunta: "¿Qué define el comportamiento?",
 opciones: [
 "Atributos",
 "Métodos",
@@ -197,11 +117,91 @@ opciones: [
 correcta: 1
 },
 {
-pregunta: "¿Qué define el estado de un objeto?",
+pregunta: "¿Qué se reutiliza en polimorfismo?",
 opciones: [
-"Métodos",
-"Atributos",
+"Código duplicado",
+"Interfaz común",
+"Variables",
+"Archivos"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué tipo de programación usa polimorfismo?",
+opciones: [
+"Estructurada",
+"Orientada a objetos",
+"Funcional",
+"Lineal"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué se requiere para sobrescribir un método?",
+opciones: [
+"Eliminarlo",
+"Definirlo en derivada",
+"Duplicarlo",
+"Ignorarlo"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué clase define el método virtual?",
+opciones: [
+"Main",
+"Clase base",
+"Clase derivada",
+"Vector"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué ocurre si dos clases tienen atacar()?",
+opciones: [
+"Error",
+"Mismo comportamiento",
+"Comportamiento distinto",
+"No compila"
+],
+correcta: 2
+},
+{
+pregunta: "¿Qué se busca evitar?",
+opciones: [
+"Herencia",
+"Condicionales múltiples",
+"Uso de clases",
+"Uso de métodos"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué permite tratar objetos diferentes igual?",
+opciones: [
+"Herencia",
+"Polimorfismo",
+"Encapsulación",
+"Compilador"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué representa Personaje en esta práctica?",
+opciones: [
+"Objeto",
+"Clase base",
+"Función",
+"Archivo"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué representan Guerrero, Mago y Arquero?",
+opciones: [
 "Funciones",
+"Clases derivadas",
+"Variables",
 "Archivos"
 ],
 correcta: 1
@@ -210,102 +210,102 @@ correcta: 1
 /* 21–40 ANÁLISIS */
 
 {
-pregunta: "¿Por qué Personaje es clase base?",
+pregunta: "¿Por qué usar Personaje*?",
 opciones: [
-"Es simple",
-"Comparte atributos",
-"Es obligatoria",
-"No tiene métodos"
+"Ahorrar memoria",
+"Permitir polimorfismo",
+"Evitar clases",
+"Eliminar objetos"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué distingue Guerrero de Mago?",
+pregunta: "¿Qué permite vector<Personaje*>?",
 opciones: [
-"Nombre",
-"Comportamiento",
-"Nivel",
-"Vida"
+"Guardar un solo tipo",
+"Guardar diferentes tipos",
+"Evitar memoria",
+"Eliminar objetos"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué se modifica en derivadas?",
+pregunta: "¿Qué ocurre al llamar atacar() en un puntero base?",
 opciones: [
-"Atributos base",
-"Comportamiento",
+"Siempre base",
+"Depende del objeto real",
+"Error",
+"No ejecuta"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué es enlace dinámico?",
+opciones: [
+"En compilación",
+"En ejecución",
+"Manual",
+"Estático"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué ocurre sin polimorfismo?",
+opciones: [
+"Menos código",
+"Muchos if/switch",
+"Mejor diseño",
+"Más abstracción"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué simplifica el polimorfismo?",
+opciones: [
 "Memoria",
-"Main"
+"Lógica",
+"Compilador",
+"Archivos"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué pasa si no redefinen métodos?",
+pregunta: "¿Qué pasa si no se sobrescribe atacar()?",
 opciones: [
 "Error",
-"Comportamiento igual",
-"Más rápido",
-"No compila"
+"Mismo comportamiento",
+"No compila",
+"Se elimina"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué indica redefinir método?",
+pregunta: "¿Qué define el tipo real del objeto?",
 opciones: [
-"Eliminarlo",
-"Cambiar comportamiento",
-"Duplicar",
-"Ignorar"
+"Puntero",
+"Instancia",
+"Variable",
+"Compilador"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué debe evitar una clase?",
+pregunta: "¿Qué se ejecuta realmente?",
 opciones: [
-"Métodos",
-"Responsabilidades múltiples",
-"Atributos",
-"Constructores"
+"Método base",
+"Método derivado",
+"Main",
+"Constructor"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué es cohesión?",
+pregunta: "¿Qué permite cambiar comportamiento sin modificar código externo?",
 opciones: [
-"Relación externa",
-"Unidad interna",
-"Uso de memoria",
-"Compilación"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué es acoplamiento?",
-opciones: [
-"Dependencia entre clases",
-"Uso de métodos",
-"Cantidad de atributos",
-"Uso de memoria"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué se busca reducir?",
-opciones: [
-"Código",
-"Acoplamiento",
-"Atributos",
-"Clases"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué se busca aumentar?",
-opciones: [
-"Errores",
-"Cohesión",
-"Dependencias",
-"Memoria"
+"Herencia",
+"Polimorfismo",
+"Variables",
+"Archivos"
 ],
 correcta: 1
 },
@@ -313,92 +313,92 @@ correcta: 1
 /* 41–60 DISEÑO */
 
 {
-pregunta: "¿Qué define buena separación?",
+pregunta: "¿Qué ventaja da polimorfismo?",
 opciones: [
-"Cantidad código",
-"Responsabilidad clara",
-"Memoria",
-"Velocidad"
+"Más memoria",
+"Mayor flexibilidad",
+"Más código",
+"Más errores"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué indica mal diseño?",
+pregunta: "¿Qué mejora el diseño?",
+opciones: [
+"Condicionales",
+"Abstracción",
+"Variables",
+"Archivos"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué permite escalar el sistema?",
+opciones: [
+"If",
+"Polimorfismo",
+"Variables",
+"Memoria"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué pasa si agregas nueva clase?",
+opciones: [
+"Rompe sistema",
+"No afecta código existente",
+"Error",
+"No compila"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué se evita al crecer el sistema?",
 opciones: [
 "Clases",
-"Relaciones forzadas",
-"Atributos",
-"Métodos"
+"If/switch",
+"Funciones",
+"Archivos"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué es abstracción?",
+pregunta: "¿Qué representa atacar()?",
 opciones: [
-"Eliminar código",
-"Modelar lo esencial",
-"Reducir memoria",
-"Aumentar velocidad"
+"Atributo",
+"Comportamiento",
+"Variable",
+"Archivo"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué es encapsulación?",
+pregunta: "¿Qué indica buen diseño?",
 opciones: [
-"Ocultar detalles",
-"Eliminar métodos",
-"Duplicar atributos",
-"Aumentar memoria"
-],
-correcta: 0
-},
-{
-pregunta: "¿Qué representa un diagrama?",
-opciones: [
-"Código",
-"Estructura",
-"Errores",
-"Memoria"
+"Muchos if",
+"Uso de polimorfismo",
+"Más variables",
+"Más memoria"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué ayuda a diseñar?",
+pregunta: "¿Qué facilita mantenimiento?",
 opciones: [
-"IDE",
-"Diagramas",
-"Compilador",
-"Debugger"
+"Código rígido",
+"Código flexible",
+"Variables",
+"Archivos"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué pasa si no se diseña?",
+pregunta: "¿Qué permite reutilización?",
 opciones: [
-"Nada",
-"Solución desordenada",
-"Más rápido",
-"Mejor código"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué se evalúa primero?",
-opciones: [
-"Código",
-"Lógica",
+"Duplicación",
+"Abstracción",
 "Memoria",
 "Compilador"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué representa flecha UML?",
-opciones: [
-"Datos",
-"Herencia",
-"Errores",
-"Memoria"
 ],
 correcta: 1
 },
@@ -406,9 +406,9 @@ correcta: 1
 pregunta: "¿Qué define sistema bien diseñado?",
 opciones: [
 "Mucho código",
-"Estructura clara",
-"Muchos métodos",
-"Mucha memoria"
+"Comportamiento adaptable",
+"Más memoria",
+"Más funciones"
 ],
 correcta: 1
 },
@@ -416,102 +416,102 @@ correcta: 1
 /* 61–80 AVANZADO */
 
 {
-pregunta: "¿Qué permite herencia múltiple?",
+pregunta: "¿Qué es función virtual pura?",
 opciones: [
-"Eliminar clases",
-"Combinar comportamientos",
-"Reducir memoria",
-"Evitar métodos"
+"Opcional",
+"Obligatoria en derivadas",
+"Privada",
+"Estática"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué problema genera?",
+pregunta: "¿Cómo se declara?",
 opciones: [
-"Velocidad",
-"Ambigüedad",
+"virtual void f()",
+"virtual void f() = 0",
+"void f()",
+"static void f()"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué es clase abstracta?",
+opciones: [
+"Instanciable",
+"No instanciable",
+"Global",
+"Privada"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué ocurre si no implementa método puro?",
+opciones: [
+"Error",
+"No compila",
+"Se ignora",
+"Funciona igual"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué mejora el sistema?",
+opciones: [
+"Más clases",
+"Interfaz común",
+"Más memoria",
+"Más archivos"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué permite sistema de combate?",
+opciones: [
+"Variables",
+"Polimorfismo",
 "Memoria",
-"Compilación"
+"Archivos"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Cuándo usarla?",
+pregunta: "¿Qué pasa si quitas virtual?",
 opciones: [
-"Siempre",
-"Nunca",
-"Cuando sea necesario",
-"Cuando sea fácil"
-],
-correcta: 2
-},
-{
-pregunta: "¿Qué evalúa diseño?",
-opciones: [
-"Código",
-"Estructura",
-"Memoria",
-"SO"
+"Mejora",
+"Pierde polimorfismo",
+"No afecta",
+"Aumenta velocidad"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué error común hay?",
+pregunta: "¿Qué evita código rígido?",
 opciones: [
-"Pensar",
-"Programar sin diseñar",
-"Usar clases",
-"Usar métodos"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué es clave en herencia?",
-opciones: [
-"Cantidad código",
-"Abstracción correcta",
-"Memoria",
-"Compilador"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué representa modelo?",
-opciones: [
-"Código",
-"Realidad simplificada",
-"Errores",
+"If",
+"Polimorfismo",
+"Variables",
 "Memoria"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué ocurre si modelo es incorrecto?",
+pregunta: "¿Qué representa interfaz común?",
 opciones: [
-"No afecta",
-"Todo falla",
-"Solo UI falla",
-"Solo memoria"
+"Atributos",
+"Métodos compartidos",
+"Variables",
+"Archivos"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué implica diseñar bien?",
+pregunta: "¿Qué define diseño moderno?",
 opciones: [
-"Menos código",
-"Menos errores",
+"Muchos if",
+"Uso de polimorfismo",
 "Más memoria",
-"Más tiempo ejecución"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué define buena herencia?",
-opciones: [
-"Cantidad clases",
-"Relación lógica correcta",
-"Uso de memoria",
-"Uso de IDE"
+"Más archivos"
 ],
 correcta: 1
 }
