@@ -1,208 +1,208 @@
 window.banco = [
 
 /* =========================
-   POLIMORFISMO Y COMPORTAMIENTO DINÁMICO
+   CLASES ABSTRACTAS E INTERFACES
 ========================= */
 
 /* 1–20 FUNDAMENTOS */
 
 {
-pregunta: "¿Qué permite el polimorfismo en POO?",
+pregunta: "¿Qué es una clase abstracta?",
 opciones: [
-"Eliminar clases",
-"Usar un mismo método con distintos comportamientos",
-"Reducir memoria obligatoriamente",
-"Evitar herencia"
+"Una clase normal",
+"Una clase que no puede instanciarse",
+"Una variable",
+"Una función privada"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué significa polimorfismo?",
+pregunta: "¿Qué elemento suele tener una clase abstracta?",
 opciones: [
-"Un solo método",
-"Muchas formas",
-"Muchos atributos",
-"Una clase"
+"Variables globales",
+"Funciones virtuales puras",
+"Archivos",
+"Constructores privados"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué palabra clave activa el polimorfismo en C++?",
+pregunta: "¿Qué significa interfaz en POO?",
+opciones: [
+"Clase con solo atributos",
+"Contrato de métodos",
+"Archivo ejecutable",
+"Variable global"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué palabra se usa para declarar métodos virtuales?",
 opciones: [
 "public",
+"friend",
 "virtual",
-"static",
-"friend"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué tipo de función permite comportamiento dinámico?",
-opciones: [
-"Normal",
-"Privada",
-"Virtual",
-"Estática"
+"static"
 ],
 correcta: 2
 },
 {
-pregunta: "¿Qué método se usa en la práctica para demostrar polimorfismo?",
+pregunta: "¿Cómo se declara una función virtual pura?",
 opciones: [
-"mostrarInfo",
-"main",
-"atacar",
-"setNombre"
+"virtual void f();",
+"void f() = 0;",
+"virtual void f() = 0;",
+"static void f();"
 ],
 correcta: 2
 },
 {
-pregunta: "¿Qué ocurre si no se usa virtual?",
+pregunta: "¿Qué ocurre si una clase tiene una función virtual pura?",
 opciones: [
-"Polimorfismo correcto",
-"Se ejecuta método de clase base",
-"Error de compilación",
-"No afecta"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué tipo de enlace usa el polimorfismo?",
-opciones: [
-"Estático",
-"Dinámico",
-"Manual",
-"Compilado"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué se necesita para polimorfismo?",
-opciones: [
-"Solo clases",
-"Herencia",
-"Variables globales",
-"Archivos"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué se comparte entre clases en polimorfismo?",
-opciones: [
-"Nombre método",
-"Dirección memoria",
-"Constructor",
-"Archivo"
+"Se vuelve abstracta",
+"Se elimina",
+"Se vuelve privada",
+"Se compila normal"
 ],
 correcta: 0
 },
 {
-pregunta: "¿Qué cambia entre clases derivadas?",
+pregunta: "¿Qué representa Empleado en la práctica?",
 opciones: [
-"Nombre método",
-"Comportamiento",
-"Tipo variable",
-"Compilador"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué define el comportamiento?",
-opciones: [
-"Atributos",
-"Métodos",
-"Memoria",
-"Compilador"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué se reutiliza en polimorfismo?",
-opciones: [
-"Código duplicado",
-"Interfaz común",
-"Variables",
-"Archivos"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué tipo de programación usa polimorfismo?",
-opciones: [
-"Estructurada",
-"Orientada a objetos",
-"Funcional",
-"Lineal"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué se requiere para sobrescribir un método?",
-opciones: [
-"Eliminarlo",
-"Definirlo en derivada",
-"Duplicarlo",
-"Ignorarlo"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué clase define el método virtual?",
-opciones: [
-"Main",
-"Clase base",
 "Clase derivada",
-"Vector"
+"Clase abstracta",
+"Interfaz",
+"Variable"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué ocurre si dos clases tienen atacar()?",
+pregunta: "¿Qué representa IResponsable?",
 opciones: [
-"Error",
-"Mismo comportamiento",
-"Comportamiento distinto",
-"No compila"
+"Constructor",
+"Interfaz",
+"Archivo",
+"Objeto"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué método obliga a implementar la interfaz?",
+opciones: [
+"trabajar()",
+"main()",
+"generarReporte()",
+"mostrarInformacion()"
 ],
 correcta: 2
 },
 {
-pregunta: "¿Qué se busca evitar?",
+pregunta: "¿Qué clases heredan de Empleado?",
 opciones: [
-"Herencia",
-"Condicionales múltiples",
-"Uso de clases",
-"Uso de métodos"
+"main y vector",
+"Programador, AdministradorRed y SoporteTecnico",
+"Solo Programador",
+"Solo AdministradorRed"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué permite tratar objetos diferentes igual?",
+pregunta: "¿Qué ventaja tiene una interfaz?",
 opciones: [
-"Herencia",
+"Eliminar herencia",
+"Definir comportamientos comunes",
+"Reducir compilación",
+"Evitar métodos"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué se sobrescribe en las clases derivadas?",
+opciones: [
+"Variables globales",
+"Métodos",
+"Archivos",
+"Bibliotecas"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué permite el polimorfismo?",
+opciones: [
+"Muchos archivos",
+"Distintos comportamientos",
+"Eliminar objetos",
+"Evitar clases"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué ocurre si no se implementa un método puro?",
+opciones: [
+"No compila",
+"Funciona normal",
+"Se ignora",
+"Se elimina"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué método demuestra comportamiento distinto?",
+opciones: [
+"main()",
+"trabajar()",
+"cout",
+"cin"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué hace Programador en trabajar()?",
+opciones: [
+"Reparar red",
+"Desarrollar código",
+"Atender tickets",
+"Eliminar usuarios"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué hace AdministradorRed?",
+opciones: [
+"Desarrollar videojuegos",
+"Monitorear servidores",
+"Vender productos",
+"Editar imágenes"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué hace SoporteTecnico?",
+opciones: [
+"Administrar base de datos",
+"Atender incidencias",
+"Crear videojuegos",
+"Compilar programas"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué permite usar una clase base?",
+opciones: [
 "Polimorfismo",
-"Encapsulación",
-"Compilador"
+"Eliminar métodos",
+"Evitar objetos",
+"Eliminar herencia"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué representa Personaje en esta práctica?",
+pregunta: "¿Qué tipo de programación usa interfaces?",
 opciones: [
-"Objeto",
-"Clase base",
-"Función",
-"Archivo"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué representan Guerrero, Mago y Arquero?",
-opciones: [
-"Funciones",
-"Clases derivadas",
-"Variables",
-"Archivos"
+"Estructurada",
+"Orientada a objetos",
+"Lineal",
+"Procedimental"
 ],
 correcta: 1
 },
@@ -210,310 +210,410 @@ correcta: 1
 /* 21–40 ANÁLISIS */
 
 {
-pregunta: "¿Por qué usar Personaje*?",
+pregunta: "¿Por qué usar Empleado*?",
 opciones: [
-"Ahorrar memoria",
+"Reducir memoria",
 "Permitir polimorfismo",
-"Evitar clases",
-"Eliminar objetos"
+"Eliminar clases",
+"Evitar funciones"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué permite vector<Personaje*>?",
+pregunta: "¿Qué permite vector<Empleado*>?",
 opciones: [
-"Guardar un solo tipo",
-"Guardar diferentes tipos",
-"Evitar memoria",
-"Eliminar objetos"
+"Guardar distintos empleados",
+"Eliminar memoria",
+"Evitar objetos",
+"Guardar enteros"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué ocurre al llamar atacar() en un puntero base?",
+pregunta: "¿Qué ocurre al llamar trabajar() desde un puntero base?",
 opciones: [
-"Siempre base",
+"Siempre ejecuta base",
 "Depende del objeto real",
-"Error",
-"No ejecuta"
+"Da error",
+"No funciona"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué es enlace dinámico?",
+pregunta: "¿Qué se reutiliza mediante abstracción?",
 opciones: [
-"En compilación",
-"En ejecución",
-"Manual",
-"Estático"
+"Interfaz común",
+"Variables",
+"Archivos",
+"Compilador"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué evita usar interfaces?",
+opciones: [
+"Organización",
+"Código rígido",
+"Objetos",
+"Herencia"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué ocurre sin polimorfismo?",
+pregunta: "¿Qué ventaja tiene el diseño abstracto?",
 opciones: [
-"Menos código",
-"Muchos if/switch",
-"Mejor diseño",
-"Más abstracción"
+"Mayor flexibilidad",
+"Más errores",
+"Más if",
+"Más memoria"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué simplifica el polimorfismo?",
+pregunta: "¿Qué se comparte entre empleados?",
 opciones: [
-"Memoria",
-"Lógica",
+"Nombre de métodos",
+"Dirección memoria",
+"Archivos",
+"Compilador"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué cambia entre empleados?",
+opciones: [
+"Comportamiento",
 "Compilador",
-"Archivos"
+"Bibliotecas",
+"Variables globales"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué pasa si no se sobrescribe atacar()?",
+pregunta: "¿Qué representa trabajar()?",
 opciones: [
-"Error",
-"Mismo comportamiento",
-"No compila",
-"Se elimina"
+"Variable",
+"Comportamiento",
+"Archivo",
+"Compilador"
 ],
 correcta: 1
 },
 {
 pregunta: "¿Qué define el tipo real del objeto?",
 opciones: [
-"Puntero",
-"Instancia",
-"Variable",
+"Instancia creada",
+"Vector",
+"Archivo",
 "Compilador"
 ],
-correcta: 1
+correcta: 0
 },
 {
 pregunta: "¿Qué se ejecuta realmente?",
 opciones: [
-"Método base",
 "Método derivado",
-"Main",
-"Constructor"
+"Método base siempre",
+"Constructor",
+"Destructor"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué permite cambiar comportamiento sin modificar código externo?",
+pregunta: "¿Qué facilita mantenimiento?",
 opciones: [
-"Herencia",
-"Polimorfismo",
-"Variables",
-"Archivos"
+"Código flexible",
+"Muchos if",
+"Variables globales",
+"Duplicación"
 ],
-correcta: 1
-},
-
-/* 41–60 DISEÑO */
-
-{
-pregunta: "¿Qué ventaja da polimorfismo?",
-opciones: [
-"Más memoria",
-"Mayor flexibilidad",
-"Más código",
-"Más errores"
-],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué mejora el diseño?",
-opciones: [
-"Condicionales",
-"Abstracción",
-"Variables",
-"Archivos"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué permite escalar el sistema?",
-opciones: [
-"If",
-"Polimorfismo",
-"Variables",
-"Memoria"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué pasa si agregas nueva clase?",
+pregunta: "¿Qué ocurre si agregas nueva clase derivada?",
 opciones: [
 "Rompe sistema",
-"No afecta código existente",
-"Error",
-"No compila"
+"No afecta diseño general",
+"Elimina polimorfismo",
+"Da error"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué se evita al crecer el sistema?",
+pregunta: "¿Qué ayuda a escalar el sistema?",
 opciones: [
-"Clases",
-"If/switch",
-"Funciones",
+"Polimorfismo",
+"Variables globales",
+"Archivos",
+"Memoria"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ventaja tiene generarReporte()?",
+opciones: [
+"Comportamiento común",
+"Eliminar objetos",
+"Evitar clases",
+"Reducir RAM"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué permite una interfaz?",
+opciones: [
+"Definir obligaciones",
+"Eliminar métodos",
+"Evitar objetos",
+"Eliminar clases"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué sucede sin virtual?",
+opciones: [
+"Polimorfismo correcto",
+"Pierde comportamiento dinámico",
+"No afecta",
+"Mejora rendimiento"
+],
+correcta: 1
+},
+{
+pregunta: "¿Qué simplifica el polimorfismo?",
+opciones: [
+"Lógica del sistema",
+"Compilación",
+"Hardware",
 "Archivos"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué representa atacar()?",
-opciones: [
-"Atributo",
-"Comportamiento",
-"Variable",
-"Archivo"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué indica buen diseño?",
+pregunta: "¿Qué representa un buen diseño?",
 opciones: [
 "Muchos if",
-"Uso de polimorfismo",
+"Uso de abstracción",
 "Más variables",
 "Más memoria"
 ],
 correcta: 1
 },
 {
-pregunta: "¿Qué facilita mantenimiento?",
+pregunta: "¿Qué se busca con interfaces?",
 opciones: [
-"Código rígido",
-"Código flexible",
-"Variables",
-"Archivos"
+"Reutilización",
+"Duplicación",
+"Desorden",
+"Eliminar herencia"
 ],
-correcta: 1
+correcta: 0
+},
+
+/* 41–60 DISEÑO */
+
+{
+pregunta: "¿Qué ventaja tiene una clase abstracta?",
+opciones: [
+"Define estructura común",
+"Elimina objetos",
+"Evita herencia",
+"Reduce memoria"
+],
+correcta: 0
 },
 {
-pregunta: "¿Qué permite reutilización?",
+pregunta: "¿Qué mejora el diseño orientado a objetos?",
 opciones: [
-"Duplicación",
 "Abstracción",
-"Memoria",
+"Duplicación",
+"Variables globales",
+"Muchos switch"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué facilita agregar nuevos empleados?",
+opciones: [
+"Interfaces",
+"Variables",
+"Archivos",
 "Compilador"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué define sistema bien diseñado?",
+pregunta: "¿Qué evita múltiples if/switch?",
 opciones: [
-"Mucho código",
-"Comportamiento adaptable",
-"Más memoria",
-"Más funciones"
+"Polimorfismo",
+"Variables",
+"Archivos",
+"Memoria"
 ],
-correcta: 1
+correcta: 0
+},
+{
+pregunta: "¿Qué define una interfaz?",
+opciones: [
+"Comportamientos obligatorios",
+"Variables privadas",
+"Archivos",
+"Objetos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué indica diseño moderno?",
+opciones: [
+"Uso de abstracción",
+"Muchos condicionales",
+"Duplicación",
+"Más memoria"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué permite reutilizar código?",
+opciones: [
+"Herencia",
+"Duplicación",
+"Variables globales",
+"Archivos"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué mejora extensibilidad?",
+opciones: [
+"Interfaces",
+"Condicionales",
+"Variables globales",
+"Memoria"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué se busca en software empresarial?",
+opciones: [
+"Flexibilidad",
+"Rigidez",
+"Duplicación",
+"Desorden"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ayuda a mantener orden?",
+opciones: [
+"Separar responsabilidades",
+"Duplicar código",
+"Más variables",
+"Más if"
+],
+correcta: 0
 },
 
 /* 61–80 AVANZADO */
 
 {
-pregunta: "¿Qué es función virtual pura?",
+pregunta: "¿Qué tipo de enlace usa polimorfismo?",
 opciones: [
-"Opcional",
-"Obligatoria en derivadas",
-"Privada",
-"Estática"
+"Dinámico",
+"Manual",
+"Estático",
+"Local"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Cómo se declara?",
+pregunta: "¿Qué ocurre en tiempo de ejecución?",
 opciones: [
-"virtual void f()",
-"virtual void f() = 0",
-"void f()",
-"static void f()"
+"Se decide método real",
+"Se elimina objeto",
+"Se compila otra vez",
+"Se borra memoria"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué es clase abstracta?",
+pregunta: "¿Qué representa IResponsable?",
 opciones: [
-"Instanciable",
-"No instanciable",
-"Global",
-"Privada"
+"Contrato de comportamiento",
+"Variable",
+"Archivo",
+"Compilador"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué ocurre si no implementa método puro?",
+pregunta: "¿Qué sucede si una clase no implementa interfaz?",
 opciones: [
-"Error",
-"No compila",
-"Se ignora",
-"Funciona igual"
+"Debe ser abstracta",
+"Funciona normal",
+"No usa métodos",
+"Elimina herencia"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué mejora el sistema?",
+pregunta: "¿Qué permite un menú dinámico?",
 opciones: [
-"Más clases",
-"Interfaz común",
-"Más memoria",
-"Más archivos"
+"Interacción usuario",
+"Eliminar objetos",
+"Reducir RAM",
+"Evitar funciones"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué permite sistema de combate?",
+pregunta: "¿Qué mejora la reutilización?",
 opciones: [
-"Variables",
-"Polimorfismo",
-"Memoria",
+"Interfaces y abstracción",
+"Duplicación",
+"Variables globales",
 "Archivos"
 ],
-correcta: 1
+correcta: 0
 },
 {
-pregunta: "¿Qué pasa si quitas virtual?",
+pregunta: "¿Qué define arquitectura flexible?",
 opciones: [
-"Mejora",
-"Pierde polimorfismo",
-"No afecta",
-"Aumenta velocidad"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué evita código rígido?",
-opciones: [
-"If",
-"Polimorfismo",
-"Variables",
-"Memoria"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué representa interfaz común?",
-opciones: [
-"Atributos",
-"Métodos compartidos",
-"Variables",
-"Archivos"
-],
-correcta: 1
-},
-{
-pregunta: "¿Qué define diseño moderno?",
-opciones: [
+"Componentes reutilizables",
 "Muchos if",
-"Uso de polimorfismo",
 "Más memoria",
-"Más archivos"
+"Más variables"
 ],
-correcta: 1
+correcta: 0
+},
+{
+pregunta: "¿Qué característica tiene una interfaz?",
+opciones: [
+"No implementa lógica completa",
+"Elimina métodos",
+"Evita herencia",
+"Es una variable"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué ventaja tiene el polimorfismo empresarial?",
+opciones: [
+"Adaptabilidad",
+"Rigidez",
+"Más errores",
+"Más memoria"
+],
+correcta: 0
+},
+{
+pregunta: "¿Qué representa un sistema bien diseñado?",
+opciones: [
+"Comportamiento adaptable",
+"Muchos condicionales",
+"Duplicación",
+"Desorden"
+],
+correcta: 0
 }
 
 ];
